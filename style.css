@@ -14,6 +14,25 @@ header {
     min-height: 323px;
     display: flex;
 }
+.spisok{
+    width: 422px;
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+   
+}
+
+li{
+    padding-bottom: 20px;
+    list-style-image: url(check.png);
+}
+
+
+
+
 
 .zagtxt{
     padding: 50px;
@@ -62,7 +81,7 @@ header {
 }
 
 .p2{
-    padding-top: 50px;
+    padding-top: 30px;
     font-family: Arial;
     color:  #333333;
     font-size: 16px;
@@ -92,14 +111,16 @@ footer {
  
 .color2 {
     background-color: #FFFFFF;
-     display: flex;
 }
 .color3 {
      background-color: #eeeeee; /* f5f5f5 */
  }
- 
+.etoflex {
+    display: flex;
+}
+
 .ptb50 {
-    padding: 50px 0 50px 0px;
+    padding: 50px 0 50px 50px;
     
    }
 .hzag {
@@ -110,7 +131,77 @@ footer {
     font-weight: 400;
     text-align: left;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    
 }
+
+.hzag2{
+font-family: Arial;
+color:  #445161;
+font-size: 30px;
+font-weight: 400;
+text-align: center;
+padding-bottom: 29px;
+        
+}
+.ptext3{
+    padding-left:5px;
+    width: 526px;
+    color:  #333333;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    padding-bottom: 35px;
+    padding-right: 23px;
+}
+.hzag4{
+    font-family: Arial;
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.imgplace41{
+    background-color:  #445161;
+    width: 200px;
+    height: 150px;
+   
+}
+.textlace41 {
+    padding-left: 10px;
+    
+}
+.cont41 {
+    display: flex;
+}
+.hzag41 {
+    font-family: Arial;
+    color:  #445161;
+    font-size: 24px;
+    font-weight: 400;    
+    text-align: left;
+    padding-left: 10px;
+}
+.text41 {
+    width: 359px;
+    font-family: Arial;
+    color:  #333333;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.cont42 {
+    display: flex; padding-top: 30px;
+}
+
+
+
+
+
+
 
 </style>
 </body>
